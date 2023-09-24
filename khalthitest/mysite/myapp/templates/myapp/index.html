@@ -7,6 +7,7 @@
 </head>
 <body>
     <h1>I am implementing khalti payment gateway</h1>
+    <h1>Put your own live secret key.Otherwise you will get error</h1>
     <form action="{% url 'initiate' %}" method="POST">
         {%csrf_token%}
         <input type="hidden" name="purchase_order_id" value="{{uuid}}"  id="pid">

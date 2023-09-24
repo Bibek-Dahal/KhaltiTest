@@ -34,7 +34,7 @@ def initkhalti(request):
         }
     })
 
-    # put your own live secred for admin
+    # put your own live secet for admin
     headers = {
         'Authorization': 'key b885cd9d8dc04eebb59e6f12190aoo90',
         'Content-Type': 'application/json',
